@@ -122,5 +122,6 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
-
+    // custom
+    'trusted_proxies' => env('APP_TRUSTED_PROXIES', '*'),
 ];

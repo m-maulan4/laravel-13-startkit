@@ -16,7 +16,11 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->encryptCookies(except: ['appearance', 'sidebar_state']);
+        $trustedProxies = env('TRUSTED_PROXIES');
 
+        if (! empty($trustedProxies)) {
+            $middleware->trustProxies(at: $trustedProxies);
+        }
         $middleware->web(append: [
             HandleAppearance::class,
             HandleInertiaRequests::class,
