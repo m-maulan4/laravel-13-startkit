@@ -1,22 +1,26 @@
-import { LayoutDashboard } from 'lucide-react';
+import { LayoutGrid, User } from 'lucide-react';
 import { dashboard } from './routes';
-import { NavItemCustom } from './types';
+import { NavItem } from './types';
 
-export const mainNavItems: NavItemCustom[] = [
+export const mainNavItems: NavItem[] = [
     {
-        label: 'Home',
-        items: [
+        title: 'Dashboard',
+        href: dashboard(),
+        icon: LayoutGrid,
+    },
+    {
+        title: 'Users',
+        href: '#',
+        icon: User,
+        isActive: false,
+        subItems: [
             {
-                title: 'Dashboard',
-                href: dashboard(),
-                icon: LayoutDashboard,
-                isActive: false,
-                subItems: [
-                    {
-                        title: 'test',
-                        href: dashboard(),
-                    },
-                ],
+                title: 'user1',
+                href: '#',
+            },
+            {
+                title: 'user2',
+                href: '#',
             },
         ],
     },

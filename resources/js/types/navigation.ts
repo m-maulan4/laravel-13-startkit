@@ -13,8 +13,3 @@ export type NavItem = {
     isActive?: boolean;
     subItems?: NavItem[];
 };
-
-export type NavItemCustom = {
-    label: string;
-    items: NavItem[];
-};
