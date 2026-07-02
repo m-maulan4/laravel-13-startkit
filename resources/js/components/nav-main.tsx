@@ -74,7 +74,7 @@ function MenuWithSub({ item }: { item: NavItem }) {
                     <SidebarMenuSub className="border-l-2 border-foreground">
                         {item.subItems?.map((subItem) => (
                             <SidebarMenuSubItem key={subItem.title}>
-                                <SidebarMenuSubButton asChild>
+                                <SidebarMenuSubButton isActive={isCurrentUrl(subItem.href)} asChild>
                                     <Link href={subItem.href} prefetch>
                                         <span>{subItem.title}</span>
                                     </Link>
