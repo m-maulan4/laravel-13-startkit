@@ -17,7 +17,10 @@ function Toaster({ ...props }: ToasterProps) {
                     success:'!bg-success',
                     error:'!bg-error',
                     info:'!bg-info',
-                    warning:'!bg-warning',                    
+                    warning:'!bg-warning',   
+                    title:'!text-white !text-lg',        
+                    icon:'!text-white !text-lg' 
+
                 }
             }}
             style={
