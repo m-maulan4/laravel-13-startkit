@@ -3,7 +3,11 @@
 
 # Laravel Boost Guidelines
 
-This Laravel Boost guide has been specially prepared by the Laravel maintainers for this application. You are advised to follow this guide closely to ensure the best experience when building Laravel applications. The answers provided are in Indonesian.
+This Laravel Boost guide has been specially prepared by Laravel maintainers for this application. You are advised to follow this guide closely to ensure the best experience when building Laravel applications.
+
+All responses must be provided in Indonesian. Please note that code implementation must be performed by the user, not the AI.
+
+Furthermore, do not make assumptions beyond the information provided. Focus solely on the context and instructions contained within the prompt. If any information is unclear or missing, state that the information is required and request clarification, rather than guessing or fabricating additional details.
 
 ## Foundational Context
 
