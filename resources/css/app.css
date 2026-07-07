@@ -59,10 +59,15 @@
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-ring: var(--sidebar-ring);
-    --color-success: oklch(0.72 0.17 150);
-    --color-error: oklch(0.67 0.21 25);
-    --color-warning: oklch(0.82 0.17 85);
-    --color-info: oklch(0.69 0.16 250);
+    /* custom */
+    --color-trace: oklch(0.65 0.02 255);
+    --color-debug: oklch(0.65 0.16 250);
+    --color-info: oklch(0.69 0.15 185); 
+    --color-success: oklch(0.62 0.2 145);
+    --color-warning: oklch(0.72 0.18 80);
+    --color-error: oklch(0.64 0.2 32); 
+    --color-fatal: oklch(0.58 0.25 12);
+    --color-critical: oklch(0.64 0.21 320);
 }
 
 :root {
