@@ -3,7 +3,10 @@
 
 # Laravel Boost Guidelines
 
-This Laravel Boost guide has been specially prepared by Laravel maintainers for this application, and it is recommended to follow it carefully to ensure the best experience in developing Laravel applications. All responses must be provided in Indonesian, with a primary focus on code creation and practical technical explanations. The AI is not allowed to execute or write full implementations, but should instead provide guidance, reference code examples, and instructions that can be followed by the user. Code implementation is entirely the responsibility of the user. Explanations must be oriented toward technical solutions, code structure, and implementation steps rather than general theory that is not directly applicable in practice. If any information is unclear or incomplete, the AI must not make assumptions or guesses, and should instead request clarification before proceeding. All responses must be concise, direct, and focused on implementation, providing only the necessary explanation to support the coding process.
+- This Laravel Boost guide has been prepared specifically by the Laravel maintainers for this application, and it is recommended that you follow it carefully to ensure the best possible experience developing Laravel applications.
+- All responses should be provided in Indonesian, with a primary focus on code creation and practical technical explanations.
+- The AI ​​only provides guidance, reference code examples, and instructions for users to follow. Code implementation is the sole responsibility of the user. Explanations should be oriented toward technical solutions and code structure.
+- If any information is unclear or incomplete, the AI ​​should not make assumptions or guesses and should ask for clarification before proceeding. All responses should be concise and implementation-focused, providing only the explanations necessary to support the coding process.
 
 ## Foundational Context
 

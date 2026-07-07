@@ -22,7 +22,7 @@ import { ChevronDown, ChevronLeft } from 'lucide-react';
 export function NavMain({ items }: { items: NavItem[] }) {
     return (
         <SidebarGroup className="px-2 py-0">
-            <SidebarMenu>
+            <SidebarMenu className="gap-2">
                 {items.map((item) =>
                     item.subItems ? (
                         <MenuWithSub item={item} key={item.title} />
@@ -74,7 +74,10 @@ function MenuWithSub({ item }: { item: NavItem }) {
                     <SidebarMenuSub className="border-l-2 border-foreground">
                         {item.subItems?.map((subItem) => (
                             <SidebarMenuSubItem key={subItem.title}>
-                                <SidebarMenuSubButton isActive={isCurrentUrl(subItem.href)} asChild>
+                                <SidebarMenuSubButton
+                                    isActive={isCurrentUrl(subItem.href)}
+                                    asChild
+                                >
                                     <Link href={subItem.href} prefetch>
                                         <span>{subItem.title}</span>
                                     </Link>

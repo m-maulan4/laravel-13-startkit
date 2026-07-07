@@ -1,5 +1,4 @@
 import { Link } from '@inertiajs/react';
-import { LayoutGrid } from 'lucide-react';
 import AppLogo from '@/components/app-logo';
 import { NavMain } from '@/components/nav-main';
 import { NavUser } from '@/components/nav-user';
@@ -12,8 +11,8 @@ import {
     SidebarMenuButton,
     SidebarMenuItem,
 } from '@/components/ui/sidebar';
-import { dashboard } from '@/routes';
 import { mainNavItems } from '@/menu';
+import { dashboard } from '@/routes';
 
 export function AppSidebar() {
     return (
